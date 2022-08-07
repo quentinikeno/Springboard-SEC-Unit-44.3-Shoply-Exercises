@@ -19,9 +19,19 @@ export const productsSlice = createSlice({
 				state["cart"][id] = { quantity: qty };
 			}
 		},
+		removeFromCart: (state, action) => {
+			const { id, qty } = action.payload;
+			const foundProduct = state.cart[id];
+			if (foundProduct) {
+				state["cart"][id]["quantity"] -= qty;
+				if (state["cart"][id]["quantity"] < 1) delete state["cart"][id];
+			} else {
+				console.error("Item not found in cart.");
+			}
+		},
 	},
 });
 
-export const { addToCart } = productsSlice.actions;
+export const { addToCart, removeFromCart } = productsSlice.actions;
 
 export default productsSlice.reducer;
