@@ -1,7 +1,15 @@
+import { useDispatch } from "react-redux";
+import { addToCart } from "./reducer/productsSlice";
 import "./Product.css";
 
 const Product = ({ id, product }) => {
 	const { name, price, image_url } = product;
+	const dispatch = useDispatch();
+
+	const handleAddToCart = () => {
+		dispatch(addToCart({ id, qty: 1 }));
+	};
+
 	return (
 		<div className="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
 			<div className="card">
@@ -20,7 +28,10 @@ const Product = ({ id, product }) => {
 				</div>
 				<footer className="card-footer">
 					<div className="card-footer-item">
-						<button className="button is-primary is-rounded is-outlined">
+						<button
+							className="button is-primary is-rounded is-outlined"
+							onClick={handleAddToCart}
+						>
 							Add <i className="fa-solid fa-cart-plus ml-2"></i>
 						</button>
 					</div>
