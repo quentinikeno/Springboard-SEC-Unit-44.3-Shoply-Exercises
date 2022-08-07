@@ -1,8 +1,11 @@
-import { useSelector } from "react-redux";
+import { useSelector, shallowEqual } from "react-redux";
 import Product from "./Product";
 
 const Inventory = () => {
-	const { products } = useSelector((state) => state.products.inventory);
+	const { products } = useSelector(
+		(state) => state.products.inventory,
+		shallowEqual
+	);
 	const productComponents = Object.keys(products).map((key) => (
 		<Product key={key} id={key} product={products[key]} />
 	));
