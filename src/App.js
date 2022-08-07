@@ -3,7 +3,9 @@ import Inventory from "./Inventory";
 function App() {
 	return (
 		<div className="App">
-			<Inventory />
+			<div className="container">
+				<Inventory />
+			</div>
 		</div>
 	);
 }
