@@ -1,13 +1,10 @@
-import { useSelector, useDispatch, shallowEqual } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { addToCart, removeFromCart } from "./reducer/productsSlice";
 import "./Product.css";
 
 const Product = ({ id, product }) => {
 	const { name, price, image_url } = product;
-	const productInCart = useSelector(
-		(state) => state.products.cart[id],
-		shallowEqual
-	);
+	const productInCart = useSelector((state) => state.products.cart[id]);
 	const dispatch = useDispatch();
 
 	const handleAddToCart = () => {
