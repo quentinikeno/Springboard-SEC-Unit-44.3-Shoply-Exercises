@@ -1,11 +1,13 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector, useDispatch, shallowEqual } from "react-redux";
 import { addToCart, removeFromCart } from "./reducer/productsSlice";
 import "./Product.css";
 
 const Product = ({ id, product }) => {
 	const { name, price, image_url } = product;
-	const cart = useSelector((state) => state.products.cart);
-	const inCart = Object.keys(cart).includes(id);
+	const productInCart = useSelector(
+		(state) => state.products.cart[id],
+		shallowEqual
+	);
 	const dispatch = useDispatch();
 
 	const handleAddToCart = () => {
@@ -41,10 +43,10 @@ const Product = ({ id, product }) => {
 							Add <i className="fa-solid fa-cart-plus ml-2"></i>
 						</button>
 					</div>
-					{inCart && (
+					{productInCart && (
 						<>
 							<div className="card-footer-item">
-								{cart[id]["quantity"]}
+								{productInCart.quantity}
 							</div>
 							<div className="card-footer-item">
 								<button
