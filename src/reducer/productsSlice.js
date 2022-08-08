@@ -29,9 +29,12 @@ export const productsSlice = createSlice({
 				console.error("Item not found in cart.");
 			}
 		},
+		clearCart: (state) => {
+			state.cart = {};
+		},
 	},
 });
 
-export const { addToCart, removeFromCart } = productsSlice.actions;
+export const { addToCart, removeFromCart, clearCart } = productsSlice.actions;
 
 export default productsSlice.reducer;

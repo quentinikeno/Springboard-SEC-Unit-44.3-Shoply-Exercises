@@ -1,4 +1,4 @@
-import reducer, { addToCart, removeFromCart } from "./productsSlice";
+import reducer, { addToCart, removeFromCart, clearCart } from "./productsSlice";
 import inventory from "../data.json";
 
 const initialState = {
@@ -57,5 +57,14 @@ describe("testing actions", () => {
 			inventory,
 			cart: {},
 		});
+	});
+
+	it("should handle clearing the cart.", () => {
+		expect(reducer(previousState, clearCart({ id: tvId, qty: 5 }))).toEqual(
+			{
+				inventory,
+				cart: {},
+			}
+		);
 	});
 });
