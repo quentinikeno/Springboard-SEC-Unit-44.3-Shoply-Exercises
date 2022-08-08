@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart, removeFromCart } from "./reducer/productsSlice";
+import { Link } from "react-router-dom";
 import "./Product.css";
 
 const Product = ({ id, product }) => {
@@ -30,6 +31,14 @@ const Product = ({ id, product }) => {
 							<p className="subtitle is-5">${price}</p>
 						</div>
 					</div>
+				</div>
+				<div className="px-3">
+					<Link to={`/products/${id}`}>
+						<button className="button is-info is-outlined is-rounded is-fullwidth mb-3">
+							Details{" "}
+							<i className="fa-solid fa-circle-info ml-2"></i>
+						</button>
+					</Link>
 				</div>
 				<footer className="card-footer">
 					<div className="card-footer-item">
