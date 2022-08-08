@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="columns is-multiline is-desktop"
+  >
+    <div
+      class="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-image"
+        >
+          <figure
+            class="image is-4by3"
+          >
+            <img
+              alt="tv"
+              class="mx-auto"
+              src="https://images.samsung.com/is/image/samsung/latin_en-hd-j4300ah-un32j4300ahxpa-001-front-indigo-blue"
+            />
+          </figure>
+        </div>
+        <div
+          class="card-content"
+        >
+          <div
+            class="media"
+          >
+            <div
+              class="media-content"
+            >
+              <p
+                class="title is-4 is-capitalized"
+              >
+                tv
+              </p>
+              <p
+                class="subtitle is-5"
+              >
+                $219.99
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="card-footer"
+        >
+          <div
+            class="card-footer-item"
+          >
+            <button
+              class="button is-primary is-rounded is-outlined is-fullwidth"
+            >
+              Add 
+              <i
+                class="fa-solid fa-cart-plus ml-2"
+              />
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div
+      class="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-image"
+        >
+          <figure
+            class="image is-4by3"
+          >
+            <img
+              alt="microwave"
+              class="mx-auto"
+              src="https://target.scene7.com/is/image/Target/GUEST_c59b9457-3ee1-463b-ad0a-42f48d06c140"
+            />
+          </figure>
+        </div>
+        <div
+          class="card-content"
+        >
+          <div
+            class="media"
+          >
+            <div
+              class="media-content"
+            >
+              <p
+                class="title is-4 is-capitalized"
+              >
+                microwave
+              </p>
+              <p
+                class="subtitle is-5"
+              >
+                $100
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="card-footer"
+        >
+          <div
+            class="card-footer-item"
+          >
+            <button
+              class="button is-primary is-rounded is-outlined is-fullwidth"
+            >
+              Add 
+              <i
+                class="fa-solid fa-cart-plus ml-2"
+              />
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div
+      class="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-image"
+        >
+          <figure
+            class="image is-4by3"
+          >
+            <img
+              alt="toaster oven"
+              class="mx-auto"
+              src="https://images-na.ssl-images-amazon.com/images/I/81110bb7g2L._SL1500_.jpg"
+            />
+          </figure>
+        </div>
+        <div
+          class="card-content"
+        >
+          <div
+            class="media"
+          >
+            <div
+              class="media-content"
+            >
+              <p
+                class="title is-4 is-capitalized"
+              >
+                toaster oven
+              </p>
+              <p
+                class="subtitle is-5"
+              >
+                $20.49
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="card-footer"
+        >
+          <div
+            class="card-footer-item"
+          >
+            <button
+              class="button is-primary is-rounded is-outlined is-fullwidth"
+            >
+              Add 
+              <i
+                class="fa-solid fa-cart-plus ml-2"
+              />
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div
+      class="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-image"
+        >
+          <figure
+            class="image is-4by3"
+          >
+            <img
+              alt="chair"
+              class="mx-auto"
+              src="https://www.ikea.com/PIAimages/0355482_PE547815_S5.JPG"
+            />
+          </figure>
+        </div>
+        <div
+          class="card-content"
+        >
+          <div
+            class="media"
+          >
+            <div
+              class="media-content"
+            >
+              <p
+                class="title is-4 is-capitalized"
+              >
+                chair
+              </p>
+              <p
+                class="subtitle is-5"
+              >
+                $100.89
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="card-footer"
+        >
+          <div
+            class="card-footer-item"
+          >
+            <button
+              class="button is-primary is-rounded is-outlined is-fullwidth"
+            >
+              Add 
+              <i
+                class="fa-solid fa-cart-plus ml-2"
+              />
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div
+      class="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-image"
+        >
+          <figure
+            class="image is-4by3"
+          >
+            <img
+              alt="mirror"
+              class="mx-auto"
+              src="https://target.scene7.com/is/image/Target/GUEST_703892ef-2db0-4e02-b9c8-685e4a5c37a0"
+            />
+          </figure>
+        </div>
+        <div
+          class="card-content"
+        >
+          <div
+            class="media"
+          >
+            <div
+              class="media-content"
+            >
+              <p
+                class="title is-4 is-capitalized"
+              >
+                mirror
+              </p>
+              <p
+                class="subtitle is-5"
+              >
+                $20.99
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="card-footer"
+        >
+          <div
+            class="card-footer-item"
+          >
+            <button
+              class="button is-primary is-rounded is-outlined is-fullwidth"
+            >
+              Add 
+              <i
+                class="fa-solid fa-cart-plus ml-2"
+              />
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div
+      class="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-image"
+        >
+          <figure
+            class="image is-4by3"
+          >
+            <img
+              alt="phone"
+              class="mx-auto"
+              src="https://images-na.ssl-images-amazon.com/images/I/717DO5Q-aCL._SY879_.jpg"
+            />
+          </figure>
+        </div>
+        <div
+          class="card-content"
+        >
+          <div
+            class="media"
+          >
+            <div
+              class="media-content"
+            >
+              <p
+                class="title is-4 is-capitalized"
+              >
+                phone
+              </p>
+              <p
+                class="subtitle is-5"
+              >
+                $399.99
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="card-footer"
+        >
+          <div
+            class="card-footer-item"
+          >
+            <button
+              class="button is-primary is-rounded is-outlined is-fullwidth"
+            >
+              Add 
+              <i
+                class="fa-solid fa-cart-plus ml-2"
+              />
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
