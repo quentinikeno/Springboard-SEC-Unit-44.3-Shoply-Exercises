@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders matches snapshot 1`] = `
+exports[`Smoke and snapshot tests. renders matches snapshot 1`] = `
 <DocumentFragment>
   <div
     class="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
