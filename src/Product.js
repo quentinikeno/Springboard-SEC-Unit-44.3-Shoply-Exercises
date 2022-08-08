@@ -1,20 +1,12 @@
-import { useSelector, useDispatch } from "react-redux";
-import { addToCart, removeFromCart } from "./reducer/productsSlice";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import useAddRemoveCart from "./hooks/useAddRemoveCart";
 import "./Product.css";
 
 const Product = ({ id, product }) => {
 	const { name, price, image_url } = product;
 	const productInCart = useSelector((state) => state.products.cart[id]);
-	const dispatch = useDispatch();
-
-	const handleAddToCart = () => {
-		dispatch(addToCart({ id, qty: 1 }));
-	};
-
-	const handleRemoveFromCart = () => {
-		dispatch(removeFromCart({ id, qty: 1 }));
-	};
+	const [handleAddToCart, handleRemoveFromCart] = useAddRemoveCart(id);
 
 	return (
 		<div className="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
