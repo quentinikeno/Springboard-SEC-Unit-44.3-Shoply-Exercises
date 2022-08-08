@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Product column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-image"
+      >
+        <figure
+          class="image is-4by3"
+        >
+          <img
+            alt="tv"
+            class="mx-auto"
+            src="https://images.samsung.com/is/image/samsung/latin_en-hd-j4300ah-un32j4300ahxpa-001-front-indigo-blue"
+          />
+        </figure>
+      </div>
+      <div
+        class="card-content"
+      >
+        <div
+          class="media"
+        >
+          <div
+            class="media-content"
+          >
+            <p
+              class="title is-4 is-capitalized"
+            >
+              tv
+            </p>
+            <p
+              class="subtitle is-5"
+            >
+              $219.99
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer
+        class="card-footer"
+      >
+        <div
+          class="card-footer-item"
+        >
+          <button
+            class="button is-primary is-rounded is-outlined is-fullwidth"
+          >
+            Add 
+            <i
+              class="fa-solid fa-cart-plus ml-2"
+            />
+          </button>
+        </div>
+      </footer>
+    </div>
+  </div>
+</DocumentFragment>
+`;
