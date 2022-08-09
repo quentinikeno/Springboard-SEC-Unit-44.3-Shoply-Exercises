@@ -24,7 +24,7 @@ const Navbar = () => {
 				</Link>
 				<div
 					role="button"
-					class="navbar-burger"
+					className="navbar-burger"
 					aria-label="menu"
 					aria-expanded="false"
 					data-target="navbarTransparent"
