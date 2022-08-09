@@ -43,6 +43,22 @@ exports[`Smoke and snapshot tests. renders matches snapshot 1`] = `
           </div>
         </div>
       </div>
+      <div
+        class="px-3"
+      >
+        <a
+          href="/products/47314fa1-ae56-4eae-80be-af6691145951"
+        >
+          <button
+            class="button is-info is-outlined is-rounded is-fullwidth mb-3"
+          >
+            Details 
+            <i
+              class="fa-solid fa-circle-info ml-2"
+            />
+          </button>
+        </a>
+      </div>
       <footer
         class="card-footer"
       >
