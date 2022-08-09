@@ -18,12 +18,12 @@ const ProductDetail = () => {
 
 	return (
 		<div className="ProductDetail columns is-desktop my-3">
-			<nav class="breadcrumb" aria-label="breadcrumbs">
+			<nav className="breadcrumb" aria-label="breadcrumbs">
 				<ul>
 					<li>
 						<Link to="/">Products</Link>
 					</li>
-					<li class="is-active">
+					<li className="is-active">
 						<Link
 							to="#"
 							aria-current="page"
@@ -36,7 +36,7 @@ const ProductDetail = () => {
 			</nav>
 			<div className="column">
 				<figure className="image is-4by3">
-					<img src={image_url} className="mx-auto" />
+					<img src={image_url} className="mx-auto" alt={name} />
 				</figure>
 			</div>
 			<div className="column">
