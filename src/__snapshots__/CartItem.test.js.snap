@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartItem box level has-text-centered"
+  >
+    <figure
+      class="level-item image is-128x128"
+    >
+      <img
+        alt="phone"
+        src="https://images-na.ssl-images-amazon.com/images/I/717DO5Q-aCL._SY879_.jpg"
+      />
+    </figure>
+    <div
+      class="level-item is-capitalized"
+    >
+      <div>
+        <p
+          class="heading"
+        >
+          Product
+        </p>
+        <p
+          class="title"
+        >
+          <a
+            href="/products/2266b2d6-3d71-4356-8065-392f1fceab07"
+          >
+            phone
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      class="level-item"
+    >
+      <div>
+        <p
+          class="heading"
+        >
+          Price
+        </p>
+        <p
+          class="subtitle"
+        >
+          $399.99
+        </p>
+      </div>
+    </div>
+    <div
+      class="level-item"
+    >
+      <div>
+        <p
+          class="heading"
+        >
+          Qty
+        </p>
+        <i
+          class="fa-solid fa-angle-up"
+        />
+        <span
+          class="mx-3 subtitle"
+        >
+          1
+        </span>
+        <i
+          class="fa-solid fa-chevron-down"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
