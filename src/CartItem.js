@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import useAddRemoveCart from "./hooks/useAddRemoveCart";
+import "./CartItem.css";
 
 const CartItem = ({ id, quantity }) => {
 	const product = useSelector(
@@ -12,9 +13,9 @@ const CartItem = ({ id, quantity }) => {
 	const { name, price, image_url } = product;
 
 	return (
-		<div className="box level has-text-centered">
-			<figure className="level-item">
-				<img className="image is-128x128" src={image_url} alt={name} />
+		<div className="CartItem box level has-text-centered">
+			<figure className="level-item image is-128x128">
+				<img src={image_url} alt={name} />
 			</figure>
 
 			<div className="level-item is-capitalized">

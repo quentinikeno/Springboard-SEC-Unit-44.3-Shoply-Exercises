@@ -1,0 +1,10 @@
+.CartItem i {
+	cursor: pointer;
+}
+
+.CartItem .image img {
+	width: fit-content;
+	height: fit-content;
+	max-width: 128px;
+	max-height: 128px;
+}
