@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ProductDetail columns is-desktop my-3"
+  >
+    <nav
+      aria-label="breadcrumbs"
+      class="breadcrumb"
+    >
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Products
+          </a>
+        </li>
+        <li
+          class="is-active"
+        >
+          <a
+            aria-current="page"
+            class="is-capitalized"
+            href="/products/2266b2d6-3d71-4356-8065-392f1fceab07"
+          >
+            phone
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="column"
+    >
+      <figure
+        class="image is-4by3"
+      >
+        <img
+          alt="phone"
+          class="mx-auto"
+          src="https://images-na.ssl-images-amazon.com/images/I/717DO5Q-aCL._SY879_.jpg"
+        />
+      </figure>
+    </div>
+    <div
+      class="column"
+    >
+      <h1
+        class="title is-capitalized"
+      >
+        phone
+      </h1>
+      <p
+        class="subtitle"
+      >
+        $399.99
+      </p>
+      <hr />
+      <p
+        class="box"
+      >
+        <span
+          class="has-text-weight-bold"
+        >
+          Description: 
+        </span>
+        <br />
+         Because there are absolutely no downsides that come with easier access to social media.
+      </p>
+      <hr />
+      <div>
+        <button
+          class="button is-primary is-rounded is-outlined is-fullwidth"
+        >
+          Add 
+          <i
+            class="fa-solid fa-cart-plus ml-2"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
